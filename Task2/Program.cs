@@ -23,7 +23,6 @@ namespace Task2
                 item.Chenge();
                 item.Save();
             }
-
             Console.ReadKey();
         }
     }
