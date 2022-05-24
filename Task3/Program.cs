@@ -11,6 +11,15 @@ namespace Task3
     {
         static void Main()
         {
+            Player player = new Player();
+            player.Play();
+            player.Pause();
+            player.Stop();
+            player.Record();
+            player.Stop();
+
+            //Delay
+            Console.ReadKey();
         }
     }
     interface IPlayable
